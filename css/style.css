@@ -91,6 +91,23 @@ header.navbar nav ul li a.active {
 .sign-up:hover {
   background-color: #17a67a;
 }
+.clients {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.client-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.client-logos img {
+  width: 100px;
+  height: auto;
+}
 
 /* Mobile hamburger menu */
 .menu-bar {
@@ -152,29 +169,33 @@ header section {
 }
 
 /* Features section */
-/* .features {
+.features {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
-  padding: 40px 0;
-} */
+  justify-content: center;
+  gap: 24px;
+  padding: 60px 0;
+}
+
 
 .feature-box {
-  flex: 1;
-  min-width: 260px;
+  flex: 1 1 300px;
+  max-width: 350px;
   border: 1px solid #ccc;
-  padding: 20px;
+  padding: 30px 20px;
   border-radius: 8px;
   text-align: center;
   background-color: #f9f9f9;
+  transition: 0.3s;
 }
+
 
 .feature-box img {
   width: 48px;
   height: 48px;
   margin-bottom: 16px;
 }
+
 
 .feature-box h3 {
   margin-bottom: 8px;
@@ -215,7 +236,7 @@ header section {
 /* Button style */
 .btn {
   display: inline-block;
-  background-color: #008cff;
+  background-color: #1cc093;
   color: #fff;
   padding: 10px 24px;
   border-radius: 6px;
@@ -227,7 +248,7 @@ header section {
 }
 
 .btn:hover {
-  background-color: #006fd6;
+  background-color: #1cc093;
 }
 
 /* Testimonials */
@@ -250,7 +271,7 @@ header section {
 
 /* Final CTA */
 .final-cta {
-  background-color: #008cff;
+  background-color: #1cc093;
   color: #fff;
   padding: 40px 20px;
   text-align: center;
@@ -260,7 +281,7 @@ header section {
 
 .final-cta .btn {
   background: #fff;
-  color: #008cff;
+  color: #1cc093;
   font-weight: bold;
 }
 
